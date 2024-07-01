@@ -1,0 +1,48 @@
+{
+    "packages": [
+        {
+            "name": "ralfhortt/wp-assets",
+            "version": "2.2.2",
+            "version_normalized": "2.2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Horttcore/wp-assets.git",
+                "reference": "b4e18da930a97e43dcca9cbb8166fce70e0c272e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Horttcore/wp-assets/zipball/b4e18da930a97e43dcca9cbb8166fce70e0c272e",
+                "reference": "b4e18da930a97e43dcca9cbb8166fce70e0c272e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8"
+            },
+            "time": "2024-03-24T21:26:46+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "RalfHortt\\Assets\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralf Hortt",
+                    "email": "mail@ralfhortt.dev"
+                }
+            ],
+            "description": "A helper package for working with the WordPress assets",
+            "support": {
+                "source": "https://github.com/Horttcore/wp-assets/tree/2.2.2"
+            },
+            "install-path": "../ralfhortt/wp-assets"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

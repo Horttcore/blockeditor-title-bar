@@ -1,0 +1,20 @@
+{
+    "name": "ralfhortt/blockeditor-title-bar",
+    "description": "Improve visibility of the title bar in the block editor",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ralfhortt\\BlockeditorTitleBar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ralf Hortt",
+            "email": "mail@ralfhortt.dev"
+        }
+    ],
+    "require": {
+        "ralfhortt/wp-assets": "^2.2"
+    }
+}
