@@ -34,4 +34,4 @@ if (is_readable($autoloader)) {
 // ------------------------------------------------------------------------------
 // Bootstrap
 // ------------------------------------------------------------------------------
-(new EditorStyle('blockeditor-title-bar', plugin_dir_url(__FILE__).'css/style.css', [], null))->register();
+(new EditorStyle('blockeditor-title-bar', plugin_dir_url(__FILE__).'css/style.css', [], false))->register();

@@ -4,24 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d46869d3a2d5cf3f82d4604238de8ca5",
+    "content-hash": "b2fbc220e6e05594466be6d406eb17fa",
     "packages": [
         {
             "name": "ralfhortt/wp-assets",
-            "version": "2.2.2",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Horttcore/wp-assets.git",
-                "reference": "b4e18da930a97e43dcca9cbb8166fce70e0c272e"
+                "reference": "d75b97fde3454bb228e04597c9e56372a9ddc0ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Horttcore/wp-assets/zipball/b4e18da930a97e43dcca9cbb8166fce70e0c272e",
-                "reference": "b4e18da930a97e43dcca9cbb8166fce70e0c272e",
+                "url": "https://api.github.com/repos/Horttcore/wp-assets/zipball/d75b97fde3454bb228e04597c9e56372a9ddc0ef",
+                "reference": "d75b97fde3454bb228e04597c9e56372a9ddc0ef",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8"
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.12"
             },
             "type": "library",
             "autoload": {
@@ -41,9 +44,9 @@
             ],
             "description": "A helper package for working with the WordPress assets",
             "support": {
-                "source": "https://github.com/Horttcore/wp-assets/tree/2.2.2"
+                "source": "https://github.com/Horttcore/wp-assets/tree/3.0.0"
             },
-            "time": "2024-03-24T21:26:46+00:00"
+            "time": "2024-11-06T22:00:25+00:00"
         }
     ],
     "packages-dev": [],

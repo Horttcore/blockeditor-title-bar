@@ -15,6 +15,6 @@
         }
     ],
     "require": {
-        "ralfhortt/wp-assets": "^2.2"
+        "ralfhortt/wp-assets": "^3"
     }
 }
